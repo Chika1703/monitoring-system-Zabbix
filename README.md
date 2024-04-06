@@ -17,8 +17,7 @@ systemctl restart zabbix-server zabbix-agent apache2
 systemctl enable zabbix-server zabbix-agent apache2
 ```
 
-!(img/1.png)
-
+!(https://github.com/Chika1703/monitoring-system-Zabbix/blob/main/img/1.png)
 
 ---
 
