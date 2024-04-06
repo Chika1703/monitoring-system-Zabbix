@@ -1,8 +1,11 @@
 # Домашнее задание к занятию "`Система мониторинга Zabbix`" - `Kolb Dmitry`
 
+---
+
 
 ### Задание 1
-```
+1. ![image 1](https://github.com/Chika1703/monitoring-system-Zabbix/blob/main/img/1.png)
+2. ```
 sudo apt update
 sudo apt install postgresql postgresql-contrib
 sudo apt install dpkg 
@@ -15,11 +18,11 @@ sudo -u postgres createdb -O zabbix zabbix
 zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix 
 systemctl restart zabbix-server zabbix-agent apache2
 systemctl enable zabbix-server zabbix-agent apache2
-```
 
-![image 1](https://github.com/Chika1703/monitoring-system-Zabbix/blob/main/img/1.png)
 
 ---
+
+
 
 ### Задание 2
 
